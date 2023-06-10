@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 06</title>
+</head>
+<body>
+    <script>
+        var alt=parseFloat(prompt("Digite sua altura:"));
+        var sexo=parseFloat(prompt("Digite 1 se for feminino e 2 se for masculino"));
+        var pesoIdeal;
+        switch (sexo) {
+            case 1:
+                pesoIdeal=(62.1*alt) - 44.7 
+                alert("Seu peso ideal é de "+pesoIdeal+" kg.");
+                break;
+            case 2:
+                pesoIdeal=(72.7*alt) - 58
+                alert("Seu peso ideal é de "+pesoIdeal+" kg.");  
+                break;
+            default:
+                alert("Essa altura não existe");
+                break;
+        }
+
+    
+    </script>
+</body>
+</html>
